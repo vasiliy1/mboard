@@ -1,0 +1,148 @@
+body {
+	background-color: #edede0;
+}
+
+.blink_me {
+	animation: blinker 1s linear infinite;
+}
+
+@
+keyframes blinker { 50% {
+	opacity: 0;
+}
+
+}
+table.board {
+	width: 80%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table.registration {
+	margin-left: auto;
+  margin-right: auto;
+}
+
+input[type=submit] {
+	padding: 5px 15px;
+	background: #ccc;
+	border: 0 none;
+	cursor: pointer;
+	width: 74px;
+}
+
+input#login {
+	width: 100%;
+}
+
+input#register {
+	width: 256px;
+}
+
+input.regform {
+	width: 100%;
+}
+
+input.credentials {
+	width: 100%;
+}
+
+input[type=submit]:hover {
+	padding: 5px 15px;
+	background: #8080c0;
+	border: 0 none;
+	cursor: pointer;
+	width: 74px;
+}
+
+/* textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+} */
+a.button:hover {
+	text-decoration: none;
+	background-color: #8080c0;
+	color: #333333;
+	padding: 5px 15px;
+	border: 0 none;
+}
+
+a.button {
+	text-decoration: none;
+	background-color: #ccc;
+	color: #333333;
+	padding: 5px 15px;
+	border: 0 none;
+}
+
+a.pmlink {
+	color: #550000;
+}
+
+a.pmlink:hover {
+	color: #75a941;
+}
+
+div {
+	margin: 5px;
+}
+
+
+div#mform {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div#userinfo {
+	width: auto;
+	float: right;
+}
+
+div.userslist {
+	 font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	display: table;
+	width: auto;
+	background-color: #d7d7d7;
+	border-spacing: 5px; /*cellspacing:poor IE support for  this*/
+	float: right;
+	border-radius: 5px;
+}
+
+h2{
+	text-align:center;
+}
+
+div.message {
+	background-color: #d7d7d7;
+	border: 2px solid #d7d7d7;
+	border-radius: 5px;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	min-height: 50px;
+	width: 97%;
+	margin: 10px;
+}
+
+div.date {
+	margin: 5px;
+	max-width: 85px;
+	width: 85px;
+}
+
+div.author {
+	width: 85px;
+	max-width: 85px;
+	margin: 5px;
+}
+
+p.mbody {
+	color: #004040;
+}
+
+div.mbody {
+	margin: 5px;
+	max-width: 400px;
+}
